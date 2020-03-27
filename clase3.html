@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+/* let cadena= prompt(`Ingrese dos frases usando comas`);
+
+document.write(`Texto con puntos ${cadena.replace(`,`,`.` )} <br>`)
+document.write(`Extraer Hola ${cadena.substr(0,3)} <br>`) */
+
+/* function ejercicio1(){
+for(i=0; i<=10 ; i++ ){
+    let numeros = prompt(`digite un numero`);
+    document.write(numeros);
+}
+
+} */
+alert (`Digita 5 valores numericos`);
+
+let numero1 = prompt(`Digite un número`);
+let numero2 = prompt(`Digite otro número`);
+let numero3 = prompt(`Digite otro número`);
+let numero4 = prompt(`Digite otro número`);
+let numero5 = prompt(`Digite otro número`);
+
+let numeros = [numero1, numero2, numero3, numero4, numero5]
+
+document.write(`Sus números fueron: ${numeros} <br>`)
+
+ if(numeros == 0){
+    numeros.splice("0")
+    }
+
+document.write(`Todos los numero a excepcion del cero: ${numeros.splice("0")}`)
+
+
+
+    </script>
+</body>
+
+</html>

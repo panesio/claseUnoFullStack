@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase de Javascript 1</title>
+</head>
+
+<body>
+
+
+    <script>
+
+        /*
+                let x = 2;
+                let y = 3;
+        
+                document.write(`variable x: ${x} <br> variable y:${y}`);
+        
+                let mayor = x > y;
+                console.log(`mayor:${mayor}`);
+        
+                let mayorIgual = x >= y;
+                console.log(`mayor o igual:${mayorIgual}`);
+        
+                let menor = x < y;
+                console.log(`menor:${menor}`);
+        
+                let menorIgual = x <= y;
+                console.log(`menor o igual:${menorIgual}`);
+        
+                let igual = x == y;
+                console.log(`igual:${igual}`); //2=2 true
+        
+                let igualEstricto = x === y;
+                console.log(`igual estricto o mismo valor:${igualEstricto}`); //2 
+                */
+
+                
+
+        //operadores lógicos
+
+       let var1 = false;
+        let var2 = true;
+
+ /* 
+        //simbolo ampersand AND(y)
+        var resultadoAnd = var1 && var2
+
+        alert(`Resultado And: ${resultadoAnd}`) 
+
+       
+        V && F = F
+        F && V = F
+        F && F = F
+        V && V = V
+
+//alt + shift + a --> comenta todo en bloque
+
+        //OR (o)
+        var resultadoOR = var1 || var2
+
+        alert(`Resultado Or: ${resultadoOR}`)
+        
+        /*
+        V || F = V
+        F || V = V
+        V || V = V
+        F || F = F 
+
+         //Negacion not (!)
+         var resultadoNot = !var1; //La declara negacion de la variable
+
+alert(`Resultado Not: ${resultadoNot}`)
+
+*/
+
+/* Estructuras de control
+
+Permite al sistema trabajar con relacion a las desiciones o selecciones de un usuario. Se dividen en:
+
+Selectiva (control If/ else)
+Multiple (control switch)
+Iterativas (For, While, Do while)
+
+*/
+
+/* Control de flujo If (Estructura selectiva)
+
+Si la condicion se cumple, se ejecutar una determinada sentencia .
+Codigo spaggetti: Anidacion de condicionales if/else
+
+if(){
+    if(){
+        if(){
+
+        }
+    }
+} */
+
+for(i=0; i<=10; i++){
+    for(j=10; j>=0; j--){
+    let result = i * j ;
+    document.write(`${i} x ${j} = ${result} <br>`)}
+;} 
+    
+
+
+    </script>
+</body>
+
+</html>
